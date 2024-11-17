@@ -41,6 +41,7 @@ const EmployeeList = () => {
 
             return (
               <tr key={employee.name}>
+                <td>{employee.ID}</td>
                 <td>{employee.NAME}</td>
                 <td>{employee.EMAIL}</td>
                 <td>{employee.SALARY}</td>

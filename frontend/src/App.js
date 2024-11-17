@@ -11,10 +11,10 @@ function App() {
         <h1>Employee Management System</h1>
         <nav>
           <button>
-            <Link to="/add-employee">Add Employee</Link>
+            <Link to="/add-employee" className="links">Add Employee</Link>
           </button>
           <button>
-            <Link to="/employee-list">View Employees</Link>
+            <Link to="/employee-list" className="links">View Employees</Link>
           </button>
         </nav>
         <Routes>
